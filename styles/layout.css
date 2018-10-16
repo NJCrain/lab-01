@@ -1,0 +1,12 @@
+/* div {
+  width: 100%;
+  background: #ccc;
+  height: 80px;
+} */
+
+.half {
+  float: left;
+  width: 50%;
+}
+
+

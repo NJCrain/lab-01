@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background: #fff;
+  max-width: 480px;
+  height: 1055px;
+  margin: auto;
+}
