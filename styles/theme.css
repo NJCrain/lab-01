@@ -1,3 +1,77 @@
 div {
   border: 1px solid black;
 }
+
+#a {
+  background: lightblue;
+}
+
+#b {
+  background: pink;
+}
+
+#c {
+  background: gray;
+}
+
+#d {
+  background: green;
+}
+
+#e {
+  background: orange;
+}
+
+#f {
+  background: red;
+}
+
+#g {
+  background: magenta;
+}
+
+#h {
+  background: cyan;
+}
+
+#i {
+  background: gold;
+}
+
+@media all and (min-width: 768px) {
+  #a {
+    background: gray;
+  }
+  
+  #b {
+    background: green;
+  }
+  
+  #c {
+    background: lightblue;
+  }
+  
+  #d {
+    background: pink;
+  }
+  
+  #e {
+    background: magenta;
+  }
+  
+  #f {
+    background: cyan;
+  }
+  
+  #g {
+    background: gold;
+  }
+  
+  #h {
+    background: red;
+  }
+  
+  #i {
+    background: orange;
+  }
+}
