@@ -6,6 +6,12 @@
 body {
   background: #fff;
   max-width: 480px;
-  height: 1055px;
   margin: auto;
+}
+
+
+@media all and (min-width: 768px) {
+  body {
+    max-width: 960px;
+  }
 }
