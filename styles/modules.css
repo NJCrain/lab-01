@@ -27,13 +27,13 @@
 
 @media all and (min-width: 768px) {
   #a {
-    padding: 4.271%;
+    padding: 4.271% 0;
     max-height: 100px;
   }
 
   #b {
     float: left;
-    padding: 30.32% 0;
+    padding: 30.338% 0;
     width: 20.8329%;
     max-width: 200px;
     max-height: 600px;
@@ -43,13 +43,13 @@
     float: left;
     width: 39.583%;
     max-width: 380px;
-    padding: 9.4799%;
+    padding: 9.4799% 0;
     max-height: 200px;
   }
 
   .half {
     width: 19.792%;
-    padding: 12.09% 0;
+    padding: 12.084% 0;
     max-width: 190px;
   }
 
