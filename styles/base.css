@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background: #fff;
+  max-width: 480px;
+  margin: auto;
+}
+
+
+@media all and (min-width: 768px) {
+  body {
+    max-width: 960px;
+  }
+}
