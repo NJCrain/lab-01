@@ -8,19 +8,22 @@
   max-height: 150px;
 }
 
-#c, #d {
+#c,
+#d {
   padding: 11.9%;
   max-height: 125px;
 }
 
-.half {
-  padding: 23.8%;
+#e,
+#f,
+#g,
+#h {
+  flex-basis: 50%;
+  padding: 24.17% 0;
   max-height: 250px;
 }
 
 #i {
-  float: left;
-  width: 100%;
   padding: 7.5%;
   max-height: 80px;
 }
@@ -39,7 +42,8 @@
     max-height: 600px;
   }
 
-  #c, #d {
+  #c,
+  #d {
     float: left;
     width: 39.583%;
     max-width: 380px;
