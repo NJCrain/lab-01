@@ -1,42 +1,44 @@
-#a {
-  padding: 7.1%;
-  max-height: 75px;
-}
-
-#b {
-  padding: 14.3%;
-  max-height: 150px;
-}
-
-#c,
-#d {
-  padding: 11.9%;
-  max-height: 125px;
-}
-
-#e,
-#f,
-#g,
-#h {
-  flex-basis: 50%;
-  padding: 24.17% 0;
-  max-height: 250px;
-}
-
-#i {
-  padding: 7.5%;
-  max-height: 80px;
-}
-
-@media all and (min-width: 768px) {
+@media all and (max-width: 767px) {
   #a {
+    padding: 7.1%;
+    max-height: 75px;
+  }
+
+  #b {
+    padding: 14.3%;
+    max-height: 150px;
+  }
+
+  #c,
+  #d {
+    padding: 11.9%;
+    max-height: 125px;
+  }
+
+  #e,
+  #f,
+  #g,
+  #h {
+    flex-basis: 50%;
+    padding: 24.17% 0;
+    max-height: 250px;
+  }
+
+  #i {
+    padding: 7.5%;
+    max-height: 80px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 960px) {
+  #a {
+    width: 100%;
     padding: 4.271% 0;
     max-height: 100px;
   }
 
   #b {
-    float: left;
-    padding: 30.338% 0;
+    padding: 30.338% 0; 
     width: 20.8329%;
     max-width: 200px;
     max-height: 600px;
@@ -44,17 +46,10 @@
 
   #c,
   #d {
-    float: left;
     width: 39.583%;
     max-width: 380px;
-    padding: 9.4799% 0;
+    padding: 10.32% 0;
     max-height: 200px;
-  }
-
-  .half {
-    width: 19.792%;
-    padding: 12.084% 0;
-    max-width: 190px;
   }
 
   #i {
@@ -62,5 +57,42 @@
     padding: 6.9% 0;
     max-width: 760px;
     max-height: 150px;
+  }
+}
+
+@media all and (min-width: 961px) {
+  #a {
+    width: 960px;
+    height: 100px;
+  }
+
+  #b {
+    width: 200px;
+    height: 600px;
+  }
+
+  .right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 760px;
+  }
+
+  #c,
+  #d {
+    width: 380px;
+    height: 200px;
+  }
+
+  #e,
+  #f,
+  #g,
+  #h {
+    width: 190px;
+    height: 250px;
+  }
+
+  #i {
+    width: 760px;
+    height: 150px;
   }
 }
