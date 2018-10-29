@@ -38,7 +38,46 @@ div {
   background: gold;
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 959px) {
+  #a {
+    background: orange;
+  }
+  
+  #b {
+    background: red;
+  }
+  
+  #c {
+    background: gold;
+  }
+  
+  #d {
+    background: cyan;
+  }
+  
+  #e {
+    background: black;
+    color: white;
+  }
+  
+  #f {
+    background: pink;
+  }
+  
+  #g {
+    background: lightblue;
+  }
+  
+  #h {
+    background: green;
+  }
+  
+  #i {
+    background: gray;
+  }
+}
+
+@media all and (min-width: 960px) {
   #a {
     background: gray;
   }
