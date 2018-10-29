@@ -1,12 +1,23 @@
-/* div {
-  width: 100%;
-  background: #ccc;
-  height: 80px;
-} */
-
-.half {
-  float: left;
-  width: 50%;
+main {
+  display: flex;
+  flex-direction: column;
 }
 
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+@media all and (min-width: 768px) and (max-width: 960px) {
+  main {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media all and (min-width: 961px) {
+  main {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
